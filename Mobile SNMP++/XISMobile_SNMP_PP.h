@@ -1,5 +1,5 @@
 //
-//  XISMobile_SNMP_PP.h 
+//  XISMobile_SNMP_PP.h
 //  Mobile SNMP++
 //
 //  Created by Xander Maas on 22-08-12.
@@ -116,8 +116,8 @@
  
  This software is based on SNMP++2.6 from Hewlett Packard:
  
-   Copyright (c) 1996
-   Hewlett-Packard Company
+ Copyright (c) 1996
+ Hewlett-Packard Company
  
  **ATTENTION: USE OF THIS SOFTWARE IS SUBJECT TO THE FOLLOWING TERMS.**
  
@@ -163,7 +163,7 @@
 /** command: snmpDiscover - Returns an array with found SNMP agents on the specified network address
  
  @param onBroadcast The broadcast address of the network you wish to scan
- @param version The SNMP version you wish to use 
+ @param version The SNMP version you wish to use
  
  1. SNMP version 1
  2. SNMP Version 2c
@@ -234,6 +234,20 @@
  @see [Mobile SNMP++ error codes]
  
  */
+
+- (NSDictionary *)setOid:(NSString *)oid
+                 address:(NSString *)hostAddress
+             stringValue:(NSString *)stringValue
+             snmpVersion:(uint)version
+              remotePort:(NSNumber *)aPort
+           withCommunity:(NSString *)community
+                   retry:(uint)retries
+                 timeout:(uint)timeout
+                   error:(NSError * __autoreleasing*)error;
+
+
+
+
 - (NSDictionary *)walkOid:(NSString *)oid
                   address:(NSString *)hostAddress
               snmpVersion:(uint)version
@@ -248,15 +262,15 @@
  
  */
 /*- (NSDictionary *)getBulk:(NSArray *)oids
-             address:(NSString *)hostAddress
-         snmpVersion:(uint)version
-          remotePort:(NSNumber *)aPort
-       withCommunity:(NSString *)community
-               retry:(uint)retries
-              timeout:(uint)timeout
-        nonRepeaters:(uint)nonRepeaters
-       maxRepetition:(uint)maxRepetitions
-               error:(NSError *__autoreleasing *)error;
-*/
+ address:(NSString *)hostAddress
+ snmpVersion:(uint)version
+ remotePort:(NSNumber *)aPort
+ withCommunity:(NSString *)community
+ retry:(uint)retries
+ timeout:(uint)timeout
+ nonRepeaters:(uint)nonRepeaters
+ maxRepetition:(uint)maxRepetitions
+ error:(NSError *__autoreleasing *)error;
+ */
 
 @end
