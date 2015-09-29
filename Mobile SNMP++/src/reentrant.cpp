@@ -28,7 +28,7 @@
   _##########################################################################*/
 char reentrant_cpp_version[]="#(@) SNMP++ $Id: reentrant.cpp 179 2005-09-19 19:59:36Z fock $";
 
-#include "snmp_pp/reentrant.h"
+#include "reentrant.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
