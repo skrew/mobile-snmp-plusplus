@@ -55,11 +55,11 @@ char msgqueue_version[]="#(@) SNMP++ $Id: msgqueue.cpp 1826 2010-08-29 20:19:59Z
 
 //----[ snmp++ includes ]----------------------------------------------
 
-#include "snmp_pp/msgqueue.h"	// queue for holding outstanding messages
-#include "snmp_pp/snmpmsg.h"
-#include "snmp_pp/eventlistholder.h"
-#include "snmp_pp/log.h"
-#include "snmp_pp/vb.h"
+#include "msgqueue.h"	// queue for holding outstanding messages
+#include "snmpmsg.h"
+#include "eventlistholder.h"
+#include "log.h"
+#include "vb.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
