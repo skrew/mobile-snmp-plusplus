@@ -43,9 +43,9 @@
 */
 char msec_cpp_version[]="@(#) SNMP++ $Id: msec.cpp 318 2007-11-02 19:25:56Z katz $";
 
-#include "snmp_pp/msec.h"
-#include "snmp_pp/smival.h"
-#include "snmp_pp/config_snmp_pp.h"
+#include "msec.h"
+#include "smival.h"
+#include "config_snmp_pp.h"
 
 #include <stdio.h>  // for sprintf
 #include <string.h> // for strcat
