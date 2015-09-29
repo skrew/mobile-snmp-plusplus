@@ -62,12 +62,12 @@ char snmpmsg_cpp_version[]="#(@) SNMP++ $Id: snmpmsg.cpp 1542 2009-05-29 11:38:4
 #endif
 #include <stdio.h>
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/snmpmsg.h"                    // header file for SnmpMessage
-#include "snmp_pp/oid_def.h"                    // changed (Frank Fock)
-#include "snmp_pp/log.h"
-#include "snmp_pp/vb.h"
-#include "snmp_pp/usm_v3.h"
+#include "config_snmp_pp.h"
+#include "snmpmsg.h"                    // header file for SnmpMessage
+#include "oid_def.h"                    // changed (Frank Fock)
+#include "log.h"
+#include "vb.h"
+#include "usm_v3.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
