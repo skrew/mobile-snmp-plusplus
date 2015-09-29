@@ -60,10 +60,10 @@
 
 //----[ includes ]-----------------------------------------------------
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/address.h"
-#include "snmp_pp/octet.h"
-#include "snmp_pp/collect.h"
+#include "config_snmp_pp.h"
+#include "address.h"
+#include "octet.h"
+#include "collect.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
