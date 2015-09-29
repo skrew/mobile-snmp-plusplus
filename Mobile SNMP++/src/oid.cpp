@@ -65,7 +65,7 @@ char oid_cpp_version[]="#(@) SNMP++ $Id: oid.cpp 1742 2010-04-29 19:08:54Z katz 
 #include <ctype.h>                // isdigit
 #include <stdlib.h>               // malloc, free
 
-#include "snmp_pp/oid.h"                  // include def for oid class
+#include "oid.h"                  // include def for oid class
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
