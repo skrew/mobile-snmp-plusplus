@@ -31,8 +31,8 @@
 #ifndef _reentrant_h_
 #define _reentrant_h_
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/smi.h"
+#include "config_snmp_pp.h"
+#include "smi.h"
 
 #ifdef _THREADS
 #ifdef WIN32
