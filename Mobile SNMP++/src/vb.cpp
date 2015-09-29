@@ -55,7 +55,7 @@
 =====================================================================*/
 char vb_cpp_version[]="#(@) SNMP++ $Id: vb.cpp 341 2008-08-29 21:37:48Z katz $";
 
-#include "snmp_pp/vb.h"            // include vb class defs
+#include "vb.h"            // include vb class defs
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
