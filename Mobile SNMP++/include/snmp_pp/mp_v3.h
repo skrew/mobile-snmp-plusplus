@@ -32,12 +32,12 @@
 #ifndef _MP_V3
 #define _MP_V3
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef _SNMPv3
 
-#include "snmp_pp/reentrant.h"
-#include "snmp_pp/target.h"
+#include "reentrant.h"
+#include "target.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
