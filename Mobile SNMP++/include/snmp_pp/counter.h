@@ -58,7 +58,7 @@
 #ifndef _COUNTER
 #define _COUNTER
 
-#include "snmp_pp/integer.h"
+#include "integer.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
