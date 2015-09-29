@@ -62,8 +62,8 @@
 
 //------------------------------------------------------------------------
 
-#include "snmp_pp/smival.h"                // derived class for all values
-#include "snmp_pp/collect.h"
+#include "smival.h"                // derived class for all values
+#include "collect.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
