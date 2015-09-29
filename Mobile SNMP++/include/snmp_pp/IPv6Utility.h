@@ -58,7 +58,7 @@
 #ifndef _IPV6UTILITY_H
 #define _IPV6UTILITY_H
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 //FIXME #if defined(_MSC_VER) && defined(SNMP_PP_IPv6)
 #if defined(WIN32) && defined(SNMP_PP_IPv6)
