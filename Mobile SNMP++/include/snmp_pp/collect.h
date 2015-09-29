@@ -57,7 +57,7 @@
 #ifndef _COLLECTION_H_
 #define _COLLECTION_H_
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
