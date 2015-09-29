@@ -54,7 +54,7 @@
 char integer_cpp_version[]="#(@) SNMP++ $Id: integer.cpp 1542 2009-05-29 11:38:48Z katz $";
 
 #include <stdio.h>             // for sprintf()
-#include "snmp_pp/integer.h"   // header file for gauge class
+#include "integer.h"   // header file for gauge class
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
