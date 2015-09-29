@@ -29,12 +29,12 @@
 
 char event_list_holder_version[]="@(#) SNMP++ $Id: eventlistholder.cpp 342 2008-08-29 22:00:19Z katz $";
 
-#include "snmp_pp/eventlistholder.h"
-#include "snmp_pp/eventlist.h"
-#include "snmp_pp/msgqueue.h"
-#include "snmp_pp/notifyqueue.h"
-#include "snmp_pp/mp_v3.h"
-#include "snmp_pp/v3.h"
+#include "eventlistholder.h"
+#include "eventlist.h"
+#include "msgqueue.h"
+#include "notifyqueue.h"
+#include "mp_v3.h"
+#include "v3.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
