@@ -63,18 +63,18 @@ char snmp_cpp_version[]="#(@) SNMP++ $Id: uxsnmp.cpp 1798 2010-08-14 20:10:48Z k
 #define _INCLUDE_SNMP_ERR_STRINGS
 
 //----[ snmp++ includes ]----------------------------------------------
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/uxsnmp.h"        // class def for this module
-#include "snmp_pp/oid_def.h"       // class def for well known trap oids
-#include "snmp_pp/v3.h"
-#include "snmp_pp/msgqueue.h"      // message queue
-#include "snmp_pp/notifyqueue.h"   // notification queue
-#include "snmp_pp/snmpmsg.h"       // asn serialization class
-#include "snmp_pp/eventlistholder.h"
-#include "snmp_pp/usm_v3.h"
-#include "snmp_pp/vb.h"
-#include "snmp_pp/log.h"
-#include "snmp_pp/IPv6Utility.h"
+#include "config_snmp_pp.h"
+#include "uxsnmp.h"        // class def for this module
+#include "oid_def.h"       // class def for well known trap oids
+#include "v3.h"
+#include "msgqueue.h"      // message queue
+#include "notifyqueue.h"   // notification queue
+#include "snmpmsg.h"       // asn serialization class
+#include "eventlistholder.h"
+#include "usm_v3.h"
+#include "vb.h"
+#include "log.h"
+#include "IPv6Utility.h"
 
 #if defined (CPU) && CPU == PPC603
 #include <sockLib.h> 
