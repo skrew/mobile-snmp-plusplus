@@ -58,7 +58,7 @@
 #ifndef _SNMPINTEGER
 #define _SNMPINTEGER
 
-#include "snmp_pp/smival.h"
+#include "smival.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
