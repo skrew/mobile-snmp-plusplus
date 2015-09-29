@@ -50,8 +50,8 @@
 
 =====================================================================*/
 char target_cpp_version[]="#(@) SNMP++ $Id: target.cpp 1686 2009-11-24 13:47:44Z katz $";
-#include "snmp_pp/target.h"
-#include "snmp_pp/v3.h"
+#include "target.h"
+#include "v3.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
