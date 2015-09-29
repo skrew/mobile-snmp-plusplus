@@ -58,13 +58,13 @@
 #ifndef _SNMPMSG
 #define _SNMPMSG
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
-#include "snmp_pp/smival.h"
-#include "snmp_pp/pdu.h"
-#include "snmp_pp/target.h"
-#include "snmp_pp/asn1.h"
-#include "snmp_pp/mp_v3.h"
+#include "smival.h"
+#include "pdu.h"
+#include "target.h"
+#include "asn1.h"
+#include "mp_v3.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
