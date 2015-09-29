@@ -56,10 +56,10 @@
 =====================================================================*/
 char pdu_cpp_version[]="@(#) SNMP++ $Id: pdu.cpp 209 2006-01-07 20:02:34Z katz $";
 
-#include "snmp_pp/pdu.h"       // include Pdu class definition
-#include "snmp_pp/usm_v3.h"
-#include "snmp_pp/vb.h"
-#include "snmp_pp/v3.h"
+#include "pdu.h"       // include Pdu class definition
+#include "usm_v3.h"
+#include "vb.h"
+#include "v3.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
