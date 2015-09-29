@@ -38,7 +38,7 @@
 #include <signal.h>
 #include <string.h>
 
-#include "snmp_pp/log.h"
+#include "log.h"
 
 #ifdef WIN32
 #ifdef __BCPLUSPLUS__
