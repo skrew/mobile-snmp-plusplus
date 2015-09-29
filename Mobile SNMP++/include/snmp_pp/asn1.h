@@ -31,8 +31,8 @@
 #ifndef _ASN1
 #define _ASN1
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/target.h"
+#include "config_snmp_pp.h"
+#include "target.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
