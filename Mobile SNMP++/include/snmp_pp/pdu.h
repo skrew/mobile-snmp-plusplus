@@ -59,11 +59,11 @@
 #ifndef _PDU_CLS
 #define _PDU_CLS
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/address.h"
-#include "snmp_pp/timetick.h"
-#include "snmp_pp/octet.h"
-#include "snmp_pp/oid.h"
+#include "config_snmp_pp.h"
+#include "address.h"
+#include "timetick.h"
+#include "octet.h"
+#include "oid.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
