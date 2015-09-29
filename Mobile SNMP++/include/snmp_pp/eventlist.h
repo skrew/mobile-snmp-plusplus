@@ -79,8 +79,8 @@
 #include <float.h>
 #endif
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/reentrant.h"
+#include "config_snmp_pp.h"
+#include "reentrant.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
