@@ -63,9 +63,9 @@
 
 #include <time.h>
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/smi.h"
-#include "snmp_pp/reentrant.h"
+#include "config_snmp_pp.h"
+#include "smi.h"
+#include "reentrant.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
