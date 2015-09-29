@@ -53,9 +53,9 @@
 =====================================================================*/
 char counter64_cpp_version[]="@(#) SNMP++ $Id: ctr64.cpp 1558 2009-07-03 20:16:53Z katz $";
 
-#include "snmp_pp/ctr64.h"
-#include "snmp_pp/asn1.h"
-#include "snmp_pp/v3.h"
+#include "ctr64.h"
+#include "asn1.h"
+#include "v3.h"
 
 #include <stdio.h>   // for pretty printing...
 
