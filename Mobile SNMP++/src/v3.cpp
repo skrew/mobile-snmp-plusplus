@@ -39,9 +39,9 @@ char v3_cpp_version[]="#(@) SNMP++ $Id: v3.cpp 274 2006-11-03 19:21:16Z katz $";
 #endif
 #endif
 
-#include "snmp_pp/log.h"
-#include "snmp_pp/v3.h"
-#include "snmp_pp/octet.h"
+#include "log.h"
+#include "v3.h"
+#include "octet.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
