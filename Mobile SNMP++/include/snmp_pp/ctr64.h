@@ -57,7 +57,7 @@
 #ifndef _CTR64
 #define _CTR64
 
-#include "snmp_pp/smival.h"
+#include "smival.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
