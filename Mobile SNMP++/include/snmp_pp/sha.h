@@ -27,7 +27,7 @@
   _##  
   _##########################################################################*/
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #if !defined(_USE_LIBTOMCRYPT) && !defined(_USE_OPENSSL)
 
