@@ -72,7 +72,7 @@
 
 #import "XISMobile_SNMP_PP.h"
 
-#import "snmp_pp/snmp_pp.h"
+#import "snmp_pp.h"
 
 #ifdef SNMP_PP_NAMESPACE
 using namespace Snmp_pp;
