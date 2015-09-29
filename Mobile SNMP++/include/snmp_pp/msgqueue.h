@@ -76,13 +76,13 @@
 #endif
 
 //----[ snmp++ includes ]----------------------------------------------
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/address.h"
-#include "snmp_pp/target.h"
-#include "snmp_pp/pdu.h"
-#include "snmp_pp/msec.h"
-#include "snmp_pp/uxsnmp.h"
-#include "snmp_pp/eventlist.h"
+#include "config_snmp_pp.h"
+#include "address.h"
+#include "target.h"
+#include "pdu.h"
+#include "msec.h"
+#include "uxsnmp.h"
+#include "eventlist.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
