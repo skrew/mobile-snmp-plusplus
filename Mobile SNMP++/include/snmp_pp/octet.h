@@ -59,7 +59,7 @@
 #ifndef _OCTET_CLS
 #define _OCTET_CLS
 
-#include "snmp_pp/smival.h"
+#include "smival.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
