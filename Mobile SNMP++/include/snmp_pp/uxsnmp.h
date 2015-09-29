@@ -30,10 +30,10 @@
 #ifndef _UXSNMP_H_
 #define _UXSNMP_H_
 
-#include "snmp_pp/reentrant.h"
-#include "snmp_pp/target.h"
-#include "snmp_pp/oid.h"
-#include "snmp_pp/address.h"
+#include "reentrant.h"
+#include "target.h"
+#include "oid.h"
+#include "address.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
