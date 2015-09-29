@@ -50,7 +50,7 @@ char md5c_cpp_version[]="#(@) SNMP++ $Id: md5c.cpp 43 2004-03-03 23:11:21Z katz 
    documentation and/or software.
  */
 
-#include "snmp_pp/md5.h"
+#include "md5.h"
 
 #if !defined(_USE_LIBTOMCRYPT) && !defined(_USE_OPENSSL)
 
