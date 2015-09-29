@@ -28,7 +28,7 @@
   _##########################################################################*/
 char auth_priv_version[]="@(#) SNMP++ $Id: auth_priv.cpp 1799 2010-08-14 20:11:45Z katz $";
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef _SNMPv3
 
@@ -52,12 +52,12 @@ char auth_priv_version[]="@(#) SNMP++ $Id: auth_priv.cpp 1799 2010-08-14 20:11:4
 // Use internal functions for SHA and MD5 and libdes only
 // if not using libtomcrypt and openssl
 #if !defined(_USE_LIBTOMCRYPT) && !defined(_USE_OPENSSL)
-#include "snmp_pp/sha.h"
+#include "sha.h"
 #ifdef RSAEURO
 #include <rsaeuro.h>
 #else
 #include <des.h>
-#include "snmp_pp/md5.h"
+#include "md5.h"
 #endif
 #endif // !defined(_USE_LIBTOMCRYPT) && !defined(_USE_OPENSSL)
 
