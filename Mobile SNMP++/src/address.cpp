@@ -61,9 +61,9 @@ char address_cpp_version[]="@(#) SNMP++ $Id: address.cpp 1711 2010-02-10 21:25:4
 #include <netdb.h>
 #endif
 
-#include "snmp_pp/address.h"
-#include "snmp_pp/v3.h"
-#include "snmp_pp/IPv6Utility.h"
+#include "address.h"
+#include "v3.h"
+#include "IPv6Utility.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
