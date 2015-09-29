@@ -57,22 +57,22 @@
 #define SNMP_PP_V3
 
 //-----[ snmp++ classes ]------------------------------------------------
-#include "snmp_pp/config_snmp_pp.h"     // config file (SNMPv3)
-#include "snmp_pp/oid.h"                // snmp++ oid class
-#include "snmp_pp/vb.h"                 // snbmp++ vb class
-#include "snmp_pp/target.h"             // snmp++ target class
-#include "snmp_pp/pdu.h"                // snmp++ pdu class
-#include "snmp_pp/snmperrs.h"           // error macros and strings
-#include "snmp_pp/address.h"            // snmp++ address class defs
-#include "snmp_pp/v3.h"                 // SNMPv3
-#include "snmp_pp/mp_v3.h"              // SNMPv3
-#include "snmp_pp/usm_v3.h"             // SNMPv3
-#include "snmp_pp/reentrant.h"
-#include "snmp_pp/uxsnmp.h"
-#include "snmp_pp/asn1.h"
-#include "snmp_pp/msec.h"
-#include "snmp_pp/eventlist.h"
-#include "snmp_pp/eventlistholder.h"
-#include "snmp_pp/log.h"
+#include "config_snmp_pp.h"     // config file (SNMPv3)
+#include "oid.h"                // snmp++ oid class
+#include "vb.h"                 // snbmp++ vb class
+#include "target.h"             // snmp++ target class
+#include "pdu.h"                // snmp++ pdu class
+#include "snmperrs.h"           // error macros and strings
+#include "address.h"            // snmp++ address class defs
+#include "v3.h"                 // SNMPv3
+#include "mp_v3.h"              // SNMPv3
+#include "usm_v3.h"             // SNMPv3
+#include "reentrant.h"
+#include "uxsnmp.h"
+#include "asn1.h"
+#include "msec.h"
+#include "eventlist.h"
+#include "eventlistholder.h"
+#include "log.h"
 
 #endif //_SNMP_PP_H_
