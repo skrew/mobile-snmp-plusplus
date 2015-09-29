@@ -55,7 +55,7 @@
 =====================================================================*/
 char octet_cpp_version[]="@(#) SNMP++ $Id: octet.cpp 1824 2010-08-29 19:47:08Z katz $";
 
-#include "snmp_pp/octet.h"    // include definition for octet class
+#include "octet.h"    // include definition for octet class
 #include <ctype.h>    // for isprint() used by get_printable()
 #include <stdio.h>    // for sprintf() used by get_printable_hex()
 #include <string.h>   // for strlen() and memcpy()
