@@ -77,10 +77,10 @@
 
 //----[ snmp++ includes ]----------------------------------------------
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/oid.h"
-#include "snmp_pp/target.h"
-#include "snmp_pp/eventlist.h"
+#include "config_snmp_pp.h"
+#include "oid.h"
+#include "target.h"
+#include "eventlist.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
