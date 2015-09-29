@@ -62,12 +62,12 @@ char event_list_version[]="@(#) SNMP++ $Id: eventlist.cpp 1542 2009-05-29 11:38:
 
 //----[ snmp++ includes ]----------------------------------------------
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/v3.h"
-#include "snmp_pp/eventlist.h"		// queue for holding all event sources
-#include "snmp_pp/msgqueue.h"		// queue for holding snmp event sources
-#include "snmp_pp/notifyqueue.h"	// queue for holding trap callbacks
-#include "snmp_pp/snmperrs.h"
+#include "config_snmp_pp.h"
+#include "v3.h"
+#include "eventlist.h"		// queue for holding all event sources
+#include "msgqueue.h"		// queue for holding snmp event sources
+#include "notifyqueue.h"	// queue for holding trap callbacks
+#include "snmperrs.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
