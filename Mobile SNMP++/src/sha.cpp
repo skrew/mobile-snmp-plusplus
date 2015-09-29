@@ -28,7 +28,7 @@
   _##########################################################################*/
 char sha_cpp_version[]="#(@) SNMP++ $Id: sha.cpp 1549 2009-06-26 19:42:55Z katz $";
 
-#include "snmp_pp/sha.h"
+#include "sha.h"
 
 #if !defined(_USE_LIBTOMCRYPT) && !defined(_USE_OPENSSL)
 
