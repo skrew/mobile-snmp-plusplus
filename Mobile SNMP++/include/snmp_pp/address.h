@@ -69,10 +69,10 @@
 #include <memory.h>
 #endif
 
-#include "snmp_pp/config_snmp_pp.h" // for _IPX_ADDRESS and _MAC_ADDRESS
-#include "snmp_pp/smival.h"
-#include "snmp_pp/collect.h"
-#include "snmp_pp/reentrant.h"
+#include "config_snmp_pp.h" // for _IPX_ADDRESS and _MAC_ADDRESS
+#include "smival.h"
+#include "collect.h"
+#include "reentrant.h"
 
 // include sockets header files
 // for Windows16 and Windows32 include Winsock
