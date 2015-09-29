@@ -39,19 +39,19 @@ char usm_v3_cpp_version[]="@(#) SNMP++ $Id: usm_v3.cpp 1788 2010-07-23 20:02:38Z
 #include <string.h>
 #include <time.h>
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef _SNMPv3
 
-#include "snmp_pp/v3.h"
-#include "snmp_pp/usm_v3.h"
-#include "snmp_pp/auth_priv.h"
-#include "snmp_pp/reentrant.h"
-#include "snmp_pp/mp_v3.h"
-#include "snmp_pp/asn1.h"
-#include "snmp_pp/vb.h"
-#include "snmp_pp/pdu.h"
-#include "snmp_pp/log.h"
+#include "v3.h"
+#include "usm_v3.h"
+#include "auth_priv.h"
+#include "reentrant.h"
+#include "mp_v3.h"
+#include "asn1.h"
+#include "vb.h"
+#include "pdu.h"
+#include "log.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
