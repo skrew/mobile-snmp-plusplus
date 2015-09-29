@@ -31,11 +31,11 @@
 #ifndef _AUTH_PRIV_
 #define _AUTH_PRIV_
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef _SNMPv3
 
-#include "snmp_pp/usm_v3.h"
+#include "usm_v3.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
