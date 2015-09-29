@@ -56,7 +56,7 @@
 #ifndef _OID_DEF
 #define _OID_DEF
 
-#include "snmp_pp/oid.h"
+#include "oid.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
