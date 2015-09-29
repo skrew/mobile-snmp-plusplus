@@ -31,10 +31,10 @@
 #define _EVENTLISTHOLDER_H_
 
 //----[ includes ]-----------------------------------------------------
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/snmperrs.h"
-#include "snmp_pp/eventlist.h"
-#include "snmp_pp/reentrant.h"
+#include "config_snmp_pp.h"
+#include "snmperrs.h"
+#include "eventlist.h"
+#include "reentrant.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
