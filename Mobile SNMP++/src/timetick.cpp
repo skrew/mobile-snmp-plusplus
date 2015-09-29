@@ -53,7 +53,7 @@
 =====================================================================*/
 char timetick_cpp_version[]="#(@) SNMP++ $Id: timetick.cpp 1542 2009-05-29 11:38:48Z katz $";
 
-#include "snmp_pp/timetick.h"	       // include header file for timetick class
+#include "timetick.h"	       // include header file for timetick class
 #include <stdio.h>	       // for sprintf() usage.
 
 #ifdef SNMP_PP_NAMESPACE
