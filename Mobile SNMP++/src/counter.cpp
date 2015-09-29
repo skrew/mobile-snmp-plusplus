@@ -53,7 +53,7 @@
 =====================================================================*/
 char counter_cpp_version[]="@(#) SNMP++ $Id: counter.cpp 1542 2009-05-29 11:38:48Z katz $";
 
-#include "snmp_pp/counter.h"
+#include "counter.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
