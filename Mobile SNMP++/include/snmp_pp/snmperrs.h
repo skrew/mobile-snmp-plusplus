@@ -57,7 +57,7 @@
 #ifndef _SNMPERRS_H
 #define _SNMPERRS_H
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
