@@ -30,19 +30,19 @@ char mp_v3_cpp_version[]="@(#) SNMP++ $Id: mp_v3.cpp 1686 2009-11-24 13:47:44Z k
 
 #include <stdlib.h>
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef _SNMPv3
-#include "snmp_pp/v3.h"
-#include "snmp_pp/mp_v3.h"
-#include "snmp_pp/usm_v3.h"
-#include "snmp_pp/notifyqueue.h"
-#include "snmp_pp/snmpmsg.h"
-#include "snmp_pp/uxsnmp.h"
-#include "snmp_pp/eventlistholder.h"
-#include "snmp_pp/asn1.h"
-#include "snmp_pp/vb.h"
-#include "snmp_pp/log.h"
+#include "v3.h"
+#include "mp_v3.h"
+#include "usm_v3.h"
+#include "notifyqueue.h"
+#include "snmpmsg.h"
+#include "uxsnmp.h"
+#include "eventlistholder.h"
+#include "asn1.h"
+#include "vb.h"
+#include "log.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
