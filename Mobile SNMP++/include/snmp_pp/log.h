@@ -32,8 +32,8 @@
 #ifndef _log_h_
 #define _log_h_
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/reentrant.h"
+#include "config_snmp_pp.h"
+#include "reentrant.h"
 
 #ifndef WIN32
 #include <sys/types.h>
