@@ -55,7 +55,7 @@
 #define _SMIDEF
 
 // make sure configuration is included first
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
