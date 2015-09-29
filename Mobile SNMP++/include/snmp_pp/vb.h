@@ -62,15 +62,15 @@
 #ifndef _VB_CLS
 #define _VB_CLS
 
-#include "snmp_pp/oid.h"                 // oid class def
-#include "snmp_pp/timetick.h"            // time ticks
-#include "snmp_pp/counter.h"             // counter
-#include "snmp_pp/gauge.h"               // gauge class
-#include "snmp_pp/ctr64.h"               // 64 bit counters
-#include "snmp_pp/octet.h"               // octet class
-#include "snmp_pp/address.h"             // address class def
-#include "snmp_pp/integer.h"             // integer class
-#include "snmp_pp/snmperrs.h"
+#include "oid.h"                 // oid class def
+#include "timetick.h"            // time ticks
+#include "counter.h"             // counter
+#include "gauge.h"               // gauge class
+#include "ctr64.h"               // 64 bit counters
+#include "octet.h"               // octet class
+#include "address.h"             // address class def
+#include "integer.h"             // integer class
+#include "snmperrs.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
