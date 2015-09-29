@@ -78,14 +78,14 @@ char notifyqueue_version[]="#(@) SNMP++ $Id: notifyqueue.cpp 1826 2010-08-29 20:
 
 //----[ snmp++ includes ]----------------------------------------------
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/v3.h"
-#include "snmp_pp/notifyqueue.h" // queue for holding sessions waiting for async notifications
-#include "snmp_pp/eventlistholder.h"
-#include "snmp_pp/uxsnmp.h"
-#include "snmp_pp/snmperrs.h"
-#include "snmp_pp/pdu.h"
-#include "snmp_pp/log.h"
+#include "config_snmp_pp.h"
+#include "v3.h"
+#include "notifyqueue.h" // queue for holding sessions waiting for async notifications
+#include "eventlistholder.h"
+#include "uxsnmp.h"
+#include "snmperrs.h"
+#include "pdu.h"
+#include "log.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
