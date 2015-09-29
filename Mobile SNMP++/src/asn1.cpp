@@ -57,11 +57,11 @@ char asn1_cpp_version[]="#(@) SNMP++ $Id: asn1.cpp 1557 2009-07-03 20:16:09Z kat
 
 #include /**/ <stdlib.h>
 
-#include "snmp_pp/config_snmp_pp.h"
-#include "snmp_pp/asn1.h"
-#include "snmp_pp/v3.h"
-#include "snmp_pp/snmperrs.h"
-#include "snmp_pp/log.h"
+#include "config_snmp_pp.h"
+#include "asn1.h"
+#include "v3.h"
+#include "snmperrs.h"
+#include "log.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
