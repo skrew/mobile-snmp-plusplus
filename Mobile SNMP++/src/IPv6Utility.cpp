@@ -56,7 +56,7 @@
 //XXX char ipv6utility_cpp_version[] = "@(#) SNMP++ $Id: $";
 
 #include <stdio.h>  //use vsnprintf
-#include "snmp_pp/IPv6Utility.h"
+#include "IPv6Utility.h"
 
 //FIXME #if defined(_MSC_VER) && defined(SNMP_PP_IPv6)
 #if defined(WIN32) && defined(SNMP_PP_IPv6)
