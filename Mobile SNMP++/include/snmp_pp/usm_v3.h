@@ -31,13 +31,13 @@
 #ifndef _USM_V3
 #define _USM_V3
 
-#include "snmp_pp/config_snmp_pp.h"
+#include "config_snmp_pp.h"
 
 #ifdef _SNMPv3
 
-#include "snmp_pp/smi.h"
-#include "snmp_pp/octet.h"
-#include "snmp_pp/address.h"
+#include "smi.h"
+#include "octet.h"
+#include "address.h"
 
 #ifdef SNMP_PP_NAMESPACE
 namespace Snmp_pp {
